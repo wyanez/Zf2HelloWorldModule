@@ -3,7 +3,7 @@ return array(
 
     'controllers' => array(
       'invokables' => array(
-        'Zf2HelloWorldModule\Controller\Index' => 'Zf2HelloWorldModule\Controller\IndexController'
+        'Zf2HelloWorldModule' => 'Zf2HelloWorldModule\Controller\IndexController'
       ),
     ),
 
@@ -19,8 +19,12 @@ return array(
 
 
     'view_manager' => array(
+        /*
         'template_map' => array(
             'zf2-hello-world-module/index' => __DIR__ . '/../view/zf2-hello-world-module/index.phtml',
+        ),*/
+        'template_path_stack' => array(
+            'zf2-hello-world-module' => __DIR__ . '/../view',
         ),
     ),
 

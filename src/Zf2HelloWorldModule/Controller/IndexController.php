@@ -16,7 +16,7 @@ class IndexController extends AbstractActionController
 {
     public function indexAction()
     {
-        $msg= "Hello World From Zf2 Module! ".date('Y-m-d')
+        $msg= "Hello World From Zf2 Module! ".date('Y-m-d h:i:s');
         return new ViewModel(array('msg'=>$msg));
     }
 }
