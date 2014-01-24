@@ -1,5 +1,5 @@
 {
-    "name":         "wyanez/zf2-helloworld-module",
+    "name":         "wyanez/zf2-helloworld",
     "description":  "Module Example in Zf2",
     "type":         "library",
     "license":      "BSD-3-Clause",
